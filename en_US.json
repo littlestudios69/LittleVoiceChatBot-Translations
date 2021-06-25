@@ -13,7 +13,7 @@
         "ban": {
             "help": {
                 "name": "{prefix}ban",
-                "description": "Ban one or more given user by name, username#tag or @mention",
+                "description": "Ban one or more given user/s by name, username#tag or @mention",
                 "usage": "{prefix}ban <username, user#tag, @username> (multiple specifications possible)"
             }
         },
@@ -61,7 +61,7 @@
         },
         "invite": {
             "success": "Your invitelink is: {link}",
-            "invite_failed": "Some users could not be invited.",
+            "invite_failed": "Some users could not be invited",
             "dm_message": "You have been invited to Talk by *{usertag}*! {link}",
             "help": {
                 "name": "{prefix}invite",
@@ -72,23 +72,23 @@
         "kick": {
             "help": {
                 "name": "{prefix}kick",
-                "description": "Disconnect one or more given user by name, username#tag or @mention",
+                "description": "Disconnect one or more given user/s by name, username#tag or @mention",
                 "usage": "{prefix}kick <username, user#tag, @username> (multiple specifications possible)"
             }
         },
         "knock": {
             "help": {
                 "name": "{prefix}knock",
-                "description": "Knocking on a locked or full channel owners door",
+                "description": "Knock on a locked or full channel owners door",
                 "usage": "{prefix}knock <channel id>"
             }
         },
         "language": {
-            "error": "The language could not be changed.",
+            "error": "The language could not be changed",
             "success": "You changed the Language to `en_US`",
             "help": {
                 "name": "{prefix}language",
-                "description": "Set the language for your guild.",
+                "description": "Set the language for your guild",
                 "usage": "{prefix}language <new language>"
             }
         },
@@ -107,9 +107,13 @@
             }
         },
         "lock": {
+            "dm_embed": {
+                "title": "Knocking by: {usertag}",
+                "description": "User {usertag} wants to join your channel. If your userlimit is to low or your channel is locked use:\n`{prefix}unlock` or `{prefix}limit <limit>`"
+            },
             "help": {
                 "name": "{prefix}lock",
-                "description": "Lock our current channel for everyone",
+                "description": "Lock your current channel for everyone",
                 "usage": "{prefix}lock"
             }
         },

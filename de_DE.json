@@ -5,7 +5,7 @@
     "errors": {
         "missing_perms": "Dem Bot fehlt folgendes Recht: *{permission}*",
         "not_in_voicechannel": "Du befindest dich nicht in einem Voice Kanal!",
-        "not_owned_channel_or_no_tempvoice": "Dies ist kein Temporärer Kanal oder der kanal hat keinen Besitzer!",
+        "not_owned_channel_or_no_tempvoice": "Dies ist kein Temporärer Kanal oder der Kanal hat keinen Besitzer!",
         "no_power_to_perform": "Dir fehlen die Rechte dies zu tun!",
         "invite_creation_failed": "Der Invitelink konnte nicht generiert werden!"
     },
@@ -20,7 +20,7 @@
         "bitrate": {
             "help": {
                 "name": "{prefix}bitrate",
-                "description": "Mit diesem Command kannst du die bitrate vom Kanal ändern",
+                "description": "Mit diesem Command kannst du die Bitrate vom Kanal ändern",
                 "usage": "{prefix}bitrate <rate>"
             }
         },
@@ -34,7 +34,7 @@
         "claim": {
             "help": {
                 "name": "{prefix}claim",
-                "description": "Mit diesem Command kannst du dir die Ownerrechte an deinem Kanal sichern wenn keiner anwesend ist",
+                "description": "Mit diesem Command kannst du dir die Ownerrechte an deinem Kanal sichern, wenn keiner anwesend ist",
                 "usage": "{prefix}claim"
             }
         },
@@ -61,8 +61,8 @@
         },
         "invite": {
             "success": "Hier ist dein Invitelink: {link}",
-            "invite_failed": "Nicht alle angegebenen Personen konnten eingeladen werden.",
-            "dm_message": "Du wurdest von *{usertag}* eingeladen einem Sprachkanal beizutreten! {link}",
+            "invite_failed": "Nicht alle angegebenen Personen konnten eingeladen werden",
+            "dm_message": "Du wurdest von *{usertag}* eingeladen, einem Sprachkanal beizutreten! {link}",
             "help": {
                 "name": "{prefix}",
                 "description": "",
@@ -72,30 +72,34 @@
         "kick": {
             "help": {
                 "name": "{prefix}kick",
-                "description": "Kcike einen Nutzer aus deinem Kanal den du angegeben hast per name, username#tag oder @mention",
+                "description": "Kicke einen Nutzer aus deinem Kanal, den du per name, username#tag oder @mention angegeben hast",
                 "usage": "{prefix}kick <username, user#tag, @username> (mehrere Angaben möglich)"
             }
         },
         "knock": {
+            "dm_embed": {
+                "title": "Anklopfen von: {usertag}",
+                "description": "Der Benutzer {usertag}, möchte deinem Kanal beitreten. Sollte dein Kanal ein zu niedriges Limit haben oder gesperrt sein, dann nutze:\n`{prefix}unlock` oder `{prefix}limit <limit>`"
+            },
             "help": {
                 "name": "{prefix}knock",
-                "description": "Kklopfe an die Tür bei einem gesperrten oder vollem Kanal",
+                "description": "Klopfe bei einem gesperrten oder vollem Kanal an die Tür",
                 "usage": "{prefix}knock <channel id>"
             }
         },
         "language": {
-            "error": "Die Sprache konnte nicht geändert werden.",
-            "success": "Sprache zu `de_DE` geändert.",
+            "error": "Die Sprache konnte nicht geändert werden",
+            "success": "Sprache zu `de_DE` geändert",
             "help": {
                 "name": "{prefix}",
-                "description": "Stelle die Sprache des Bots ein.",
+                "description": "Stelle die Sprache des Bots ein",
                 "usage": "{prefix}language <new language>"
             }
         },
         "limit": {
             "help": {
                 "name": "{prefix}limit",
-                "description": "Setze das Benutzerlimit dines Kanals",
+                "description": "Setze das Benutzerlimit deines Kanals",
                 "usage": "{prefix}limit <limit> (2-99)"
             }
         },
@@ -109,7 +113,7 @@
         "lock": {
             "help": {
                 "name": "{prefix}lock",
-                "description": "Speere deinen Kanal für jeden der noch nicht beigetreten ist",
+                "description": "Sperre deinen Kanal für jeden, der noch nicht beigetreten ist",
                 "usage": "{prefix}lock"
             }
         },
@@ -121,11 +125,11 @@
             }
         },
         "prefix": {
-            "error": "Der prefix konnte nicht geändert werden.",
-            "success": "Prefix zu `{prefix}` geändert.",
+            "error": "Der prefix konnte nicht geändert werden",
+            "success": "Prefix zu `{prefix}` geändert",
             "help": {
                 "name": "{prefix}",
-                "description": "Setze einen neuen Command Prefix.",
+                "description": "Setze einen neuen Command Prefix",
                 "usage": "{prefix}prefix <new prefix>"
             }
         },
@@ -148,14 +152,14 @@
             "help": {
                 "name": "{prefix}rename",
                 "description": "Ändere den Kanalnamen",
-                "usage": "{prefix}rename <name> ( 32 characters max. )"
+                "usage": "{prefix}rename <name> ( 32 Zeichen max. )"
             }
         },
         "show": {
             "help": {
                 "name": "{prefix}show",
-                "description": "Wenn du deinen Kanal versteckt hast kannst du ihn hiermit wieder anzeigen",
-                "usage": "{prefix}"
+                "description": "Wenn du deinen Kanal versteckt hast, kannst du ihn hiermit wieder anzeigen",
+                "usage": "{prefix} show"
             }
         },
         "transfer": {
