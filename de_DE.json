@@ -14,48 +14,48 @@
             "help": {
                 "name": "{prefix}ban",
                 "description": "Banne einen oder mehrere angegebene/n Nutzer per Name, Nutzername#Tag oder @Erwähnung",
-                "usage": "{prefix}ban <username, user#tag, @username> (mehrere Angaben möglich) "
+                "usage": "{prefix}ban <username, user#tag, @username> (mehrere Angaben möglich)"
             }
         },
         "bitrate": {
             "help": {
                 "name": "{prefix}bitrate",
-                "description": "Set the bitrate of the channel",
+                "description": "Mit diesem Command kannst du die bitrate vom Kanal ändern",
                 "usage": "{prefix}bitrate <rate>"
             }
         },
         "botinvite": {
             "help": {
                 "name": "{prefix}botinvite",
-                "description": "Get the Invitelink of this bot",
+                "description": "Erhalte den InviteLink des Bots",
                 "usage": "{prefix}botinvite"
             }
         },
         "claim": {
             "help": {
                 "name": "{prefix}claim",
-                "description": "Claim the current channel when the owner is gone",
+                "description": "Mit diesem Command kannst du dir die Ownerrechte an deinem Kanal sichern wenn keiner anwesend ist",
                 "usage": "{prefix}claim"
             }
         },
         "donate": {
             "help": {
                 "name": "{prefix}donate",
-                "description": "Get the PayPal Donation Link tp donate for this bot. The server does not get payed by himself ;)",
+                "description": "Erhalte den PayPal Spendenlink. Die Server zahlen sich nicht von allein ;)",
                 "usage": "{prefix}donate"
             }
         },
         "help": {
             "help": {
                 "name": "{prefix}help [command]",
-                "description": "Get infos about the given command",
+                "description": "Erhalte Informationen über einen angegebenen Command oder die aktuelle Command Liste",
                 "usage": "{prefix}help [command]"
             }
         },
         "hide": {
             "help": {
                 "name": "{prefix}hide",
-                "description": "Hide the channel (so noone can see it)",
+                "description": "Verstecke deinen Kanal (Sodass niemand ihn sehen kann)",
                 "usage": "{prefix}hide"
             }
         },
@@ -72,14 +72,14 @@
         "kick": {
             "help": {
                 "name": "{prefix}kick",
-                "description": "Disconnect one or more given user by name, username#tag or @mention",
-                "usage": "{prefix}kick <username, user#tag, @username> (multiple specifications possible)"
+                "description": "Kcike einen Nutzer aus deinem Kanal den du angegeben hast per name, username#tag oder @mention",
+                "usage": "{prefix}kick <username, user#tag, @username> (mehrere Angaben möglich)"
             }
         },
         "knock": {
             "help": {
                 "name": "{prefix}knock",
-                "description": "Knocking on a locked or full channel owners door",
+                "description": "Kklopfe an die Tür bei einem gesperrten oder vollem Kanal",
                 "usage": "{prefix}knock <channel id>"
             }
         },
@@ -95,28 +95,28 @@
         "limit": {
             "help": {
                 "name": "{prefix}limit",
-                "description": "Set the userlimit of your current channel",
+                "description": "Setze das Benutzerlimit dines Kanals",
                 "usage": "{prefix}limit <limit> (2-99)"
             }
         },
         "lobby": {
             "help": {
                 "name": "{prefix}lobby",
-                "description": "Set the tempvoice lobby / a voice channel to join when you want to open your own channel permissions can be managed by category changes )",
+                "description": "Mit diesem Command kannst du die Lobby für die TempVoice Kanäle setzen",
                 "usage": "{prefix}lobby"
             }
         },
         "lock": {
             "help": {
                 "name": "{prefix}lock",
-                "description": "Lock our current channel for everyone",
+                "description": "Speere deinen Kanal für jeden der noch nicht beigetreten ist",
                 "usage": "{prefix}lock"
             }
         },
         "moveall": {
             "help": {
                 "name": "{prefix}moveall",
-                "description": "With this command you can moce all participants to another voice channel",
+                "description": "Mit diesem Command kannst du alle Teilnehmer in einen anderen Kanal verschieben",
                 "usage": "{prefix}moveall <channel id>"
             }
         },
@@ -133,42 +133,42 @@
         "pushtotalk": {
             "help": {
                 "name": "{prefix}pushtotalk",
-                "description": "Set Push-To-Talk for everyone enabled in your current channel",
+                "description": "Setze Push-To-Talk für jeden als Vorraussetzung",
                 "usage": "{prefix}pushtotalk"
             }
         },
         "region": {
             "help": {
                 "name": "{prefix}region",
-                "description": "Change the region of your current channel",
+                "description": "Ändere die Region deines Kanals",
                 "usage": "{prefix}region <region>"
             }
         },
         "rename": {
             "help": {
                 "name": "{prefix}rename",
-                "description": "Rename your curren channels name",
+                "description": "Ändere den Kanalnamen",
                 "usage": "{prefix}rename <name> ( 32 characters max. )"
             }
         },
         "show": {
             "help": {
                 "name": "{prefix}show",
-                "description": "When your channel was hided you can show it again.",
+                "description": "Wenn du deinen Kanal versteckt hast kannst du ihn hiermit wieder anzeigen",
                 "usage": "{prefix}"
             }
         },
         "transfer": {
             "help": {
                 "name": "{prefix}transfer",
-                "description": "Transfer the channels ownership",
+                "description": "Übergebe die Inhaberrechte an einen anderen Benutzer",
                 "usage": "{prefix}transfer <username, user#tag or @mention>"
             }
         },
         "unlock": {
             "help": {
                 "name": "{prefix}unlock",
-                "description": "If your channel was locked you can unlock it",
+                "description": "Gebe gesperrte kanäle wieder frei",
                 "usage": "{prefix}unlock"
             }
         }

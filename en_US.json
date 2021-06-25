@@ -41,7 +41,7 @@
         "donate": {
             "help": {
                 "name": "{prefix}donate",
-                "description": "Get the PayPal Donation Link tp donate for this bot. The server does not get payed by himself ;)",
+                "description": "Get the PayPal Donation Link to donate for this bot. The servers don't pay for themselves ;)",
                 "usage": "{prefix}donate"
             }
         },
@@ -60,7 +60,7 @@
             }
         },
         "invite": {
-            "success": "Your invite Link: {link}",
+            "success": "Your invitelink is: {link}",
             "invite_failed": "Some users could not be invited.",
             "dm_message": "You have been invited to Talk by *{usertag}*! {link}",
             "help": {
@@ -102,7 +102,7 @@
         "lobby": {
             "help": {
                 "name": "{prefix}lobby",
-                "description": "Set the tempvoice lobby / a voice channel to join when you want to open your own channel permissions can be managed by category changes )",
+                "description": "Set the tempvoice lobby ( a voice channel to join when you want to open your own channel permissions can be managed by category changes )",
                 "usage": "{prefix}lobby"
             }
         },
@@ -116,7 +116,7 @@
         "moveall": {
             "help": {
                 "name": "{prefix}moveall",
-                "description": "With this command you can moce all participants to another voice channel",
+                "description": "With this command you can move all participants to another voice channel",
                 "usage": "{prefix}moveall <channel id>"
             }
         },
@@ -146,7 +146,7 @@
         "rename": {
             "help": {
                 "name": "{prefix}rename",
-                "description": "Rename your curren channels name",
+                "description": "Rename your current channels name",
                 "usage": "{prefix}rename <name> ( 32 characters max. )"
             }
         },
