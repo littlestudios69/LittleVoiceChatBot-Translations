@@ -1,0 +1,183 @@
+{
+    "code": "de_DE",
+    "language_name": "Deutsch (de_DE)",
+    "maintenance": "Der Bot befindet sich derzeit im Wartungsmodus. Bitte versuche es später erneut.",
+    "errors": {
+        "missing_perms": "Dem Bot fehlt folgendes Recht: *{permission}*",
+        "not_in_voicechannel": "Du befindest dich nicht in einem Voice Kanal!",
+        "not_owned_channel_or_no_tempvoice": "Dies ist kein Temporärer Kanal oder der kanal hat keinen Besitzer!",
+        "no_power_to_perform": "Dir fehlen die Rechte dies zu tun!",
+        "invite_creation_failed": "Der Invitelink konnte nicht generiert werden!"
+    },
+    "commands": {
+        "ban": {
+            "help": {
+                "name": "{prefix}ban",
+                "description": "Banne einen oder mehrere angegebene/n Nutzer per Name, Nutzername#Tag oder @Erwähnung",
+                "usage": "{prefix}ban <username, user#tag, @username> (mehrere Angaben möglich) "
+            }
+        },
+        "bitrate": {
+            "help": {
+                "name": "{prefix}bitrate",
+                "description": "Set the bitrate of the channel",
+                "usage": "{prefix}bitrate <rate>"
+            }
+        },
+        "botinvite": {
+            "help": {
+                "name": "{prefix}botinvite",
+                "description": "Get the Invitelink of this bot",
+                "usage": "{prefix}botinvite"
+            }
+        },
+        "claim": {
+            "help": {
+                "name": "{prefix}claim",
+                "description": "Claim the current channel when the owner is gone",
+                "usage": "{prefix}claim"
+            }
+        },
+        "donate": {
+            "help": {
+                "name": "{prefix}donate",
+                "description": "Get the PayPal Donation Link tp donate for this bot. The server does not get payed by himself ;)",
+                "usage": "{prefix}donate"
+            }
+        },
+        "help": {
+            "help": {
+                "name": "{prefix}help [command]",
+                "description": "Get infos about the given command",
+                "usage": "{prefix}help [command]"
+            }
+        },
+        "hide": {
+            "help": {
+                "name": "{prefix}hide",
+                "description": "Hide the channel (so noone can see it)",
+                "usage": "{prefix}hide"
+            }
+        },
+        "invite": {
+            "success": "Hier ist dein Invitelink: {link}",
+            "invite_failed": "Nicht alle angegebenen Personen konnten eingeladen werden.",
+            "dm_message": "Du wurdest von *{usertag}* eingeladen einem Sprachkanal beizutreten! {link}",
+            "help": {
+                "name": "{prefix}",
+                "description": "",
+                "usage": "{prefix}"
+            }
+        },
+        "kick": {
+            "help": {
+                "name": "{prefix}kick",
+                "description": "Disconnect one or more given user by name, username#tag or @mention",
+                "usage": "{prefix}kick <username, user#tag, @username> (multiple specifications possible)"
+            }
+        },
+        "knock": {
+            "help": {
+                "name": "{prefix}knock",
+                "description": "Knocking on a locked or full channel owners door",
+                "usage": "{prefix}knock <channel id>"
+            }
+        },
+        "language": {
+            "error": "Die Sprache konnte nicht geändert werden.",
+            "success": "Sprache zu `de_DE` geändert.",
+            "help": {
+                "name": "{prefix}",
+                "description": "Stelle die Sprache des Bots ein.",
+                "usage": "{prefix}language <new language>"
+            }
+        },
+        "limit": {
+            "help": {
+                "name": "{prefix}limit",
+                "description": "Set the userlimit of your current channel",
+                "usage": "{prefix}limit <limit> (2-99)"
+            }
+        },
+        "lobby": {
+            "help": {
+                "name": "{prefix}lobby",
+                "description": "Set the tempvoice lobby / a voice channel to join when you want to open your own channel permissions can be managed by category changes )",
+                "usage": "{prefix}lobby"
+            }
+        },
+        "lock": {
+            "help": {
+                "name": "{prefix}lock",
+                "description": "Lock our current channel for everyone",
+                "usage": "{prefix}lock"
+            }
+        },
+        "moveall": {
+            "help": {
+                "name": "{prefix}moveall",
+                "description": "With this command you can moce all participants to another voice channel",
+                "usage": "{prefix}moveall <channel id>"
+            }
+        },
+        "prefix": {
+            "error": "Der prefix konnte nicht geändert werden.",
+            "success": "Prefix zu `{prefix}` geändert.",
+            "help": {
+                "name": "{prefix}",
+                "description": "Setze einen neuen Command Prefix.",
+                "usage": "{prefix}prefix <new prefix>"
+            }
+        },
+
+        "pushtotalk": {
+            "help": {
+                "name": "{prefix}pushtotalk",
+                "description": "Set Push-To-Talk for everyone enabled in your current channel",
+                "usage": "{prefix}pushtotalk"
+            }
+        },
+        "region": {
+            "help": {
+                "name": "{prefix}region",
+                "description": "Change the region of your current channel",
+                "usage": "{prefix}region <region>"
+            }
+        },
+        "rename": {
+            "help": {
+                "name": "{prefix}rename",
+                "description": "Rename your curren channels name",
+                "usage": "{prefix}rename <name> ( 32 characters max. )"
+            }
+        },
+        "show": {
+            "help": {
+                "name": "{prefix}show",
+                "description": "When your channel was hided you can show it again.",
+                "usage": "{prefix}"
+            }
+        },
+        "transfer": {
+            "help": {
+                "name": "{prefix}transfer",
+                "description": "Transfer the channels ownership",
+                "usage": "{prefix}transfer <username, user#tag or @mention>"
+            }
+        },
+        "unlock": {
+            "help": {
+                "name": "{prefix}unlock",
+                "description": "If your channel was locked you can unlock it",
+                "usage": "{prefix}unlock"
+            }
+        }
+    },
+    "words": {
+        "bot_invite": "Discordbot Einladen",
+        "language_settings": "Spracheinstellungen",
+        "prefix_settings": "Prefixeinstellungen",
+        "add_language": "Sprache hinzufügen",
+        "none": "Keine"
+    }
+}

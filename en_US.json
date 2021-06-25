@@ -1,0 +1,182 @@
+{
+    "code": "en_US",
+    "language_name": "English (en_US)",
+    "maintenance": "Our Bot is under maintenance. Please try again later.",
+    "errors": {
+        "missing_perms": "The bot is missing following permission: *{permission}*",
+        "not_in_voicechannel": "You are not in a voice channel!",
+        "not_owned_channel_or_no_tempvoice": "You are not in a temp voicechannel or this is an unowned channel!",
+        "no_power_to_perform": "You are missing permissions to do that!",
+        "invite_creation_failed": "The invitelink could not be generated!"
+    },
+    "commands": {
+        "ban": {
+            "help": {
+                "name": "{prefix}ban",
+                "description": "Ban one or more given user by name, username#tag or @mention",
+                "usage": "{prefix}ban <username, user#tag, @username> (multiple specifications possible)"
+            }
+        },
+        "bitrate": {
+            "help": {
+                "name": "{prefix}bitrate",
+                "description": "Set the bitrate of the channel",
+                "usage": "{prefix}bitrate <rate>"
+            }
+        },
+        "botinvite": {
+            "help": {
+                "name": "{prefix}botinvite",
+                "description": "Get the Invitelink of this bot",
+                "usage": "{prefix}botinvite"
+            }
+        },
+        "claim": {
+            "help": {
+                "name": "{prefix}claim",
+                "description": "Claim the current channel when the owner is gone",
+                "usage": "{prefix}claim"
+            }
+        },
+        "donate": {
+            "help": {
+                "name": "{prefix}donate",
+                "description": "Get the PayPal Donation Link tp donate for this bot. The server does not get payed by himself ;)",
+                "usage": "{prefix}donate"
+            }
+        },
+        "help": {
+            "help": {
+                "name": "{prefix}help [command]",
+                "description": "Get infos about the given command",
+                "usage": "{prefix}help [command]"
+            }
+        },
+        "hide": {
+            "help": {
+                "name": "{prefix}hide",
+                "description": "Hide the channel (so noone can see it)",
+                "usage": "{prefix}hide"
+            }
+        },
+        "invite": {
+            "success": "Your invite Link: {link}",
+            "invite_failed": "Some users could not be invited.",
+            "dm_message": "You have been invited to Talk by *{usertag}*! {link}",
+            "help": {
+                "name": "{prefix}invite",
+                "description": "This command generates an invitelink to your voicechannel",
+                "usage": "{prefix}invite {prefix}ban [username, user#tag, @username]"
+            }
+        },
+        "kick": {
+            "help": {
+                "name": "{prefix}kick",
+                "description": "Disconnect one or more given user by name, username#tag or @mention",
+                "usage": "{prefix}kick <username, user#tag, @username> (multiple specifications possible)"
+            }
+        },
+        "knock": {
+            "help": {
+                "name": "{prefix}knock",
+                "description": "Knocking on a locked or full channel owners door",
+                "usage": "{prefix}knock <channel id>"
+            }
+        },
+        "language": {
+            "error": "The language could not be changed.",
+            "success": "You changed the Language to `en_US`",
+            "help": {
+                "name": "{prefix}language",
+                "description": "Set the language for your guild.",
+                "usage": "{prefix}language <new language>"
+            }
+        },
+        "limit": {
+            "help": {
+                "name": "{prefix}limit",
+                "description": "Set the userlimit of your current channel",
+                "usage": "{prefix}limit <limit> (2-99)"
+            }
+        },
+        "lobby": {
+            "help": {
+                "name": "{prefix}lobby",
+                "description": "Set the tempvoice lobby / a voice channel to join when you want to open your own channel permissions can be managed by category changes )",
+                "usage": "{prefix}lobby"
+            }
+        },
+        "lock": {
+            "help": {
+                "name": "{prefix}lock",
+                "description": "Lock our current channel for everyone",
+                "usage": "{prefix}lock"
+            }
+        },
+        "moveall": {
+            "help": {
+                "name": "{prefix}moveall",
+                "description": "With this command you can moce all participants to another voice channel",
+                "usage": "{prefix}moveall <channel id>"
+            }
+        },
+        "prefix": {
+            "error": "The prefix could not be changed.",
+            "success": "The prefix was changed to `{prefix}`.",
+            "help": {
+                "name": "{prefix}",
+                "description": "Set a new bot prefix for your guild.",
+                "usage": "{prefix}prefix <new prefix>"
+            }
+        },
+        "pushtotalk": {
+            "help": {
+                "name": "{prefix}pushtotalk",
+                "description": "Set Push-To-Talk for everyone enabled in your current channel",
+                "usage": "{prefix}pushtotalk"
+            }
+        },
+        "region": {
+            "help": {
+                "name": "{prefix}region",
+                "description": "Change the region of your current channel",
+                "usage": "{prefix}region <region>"
+            }
+        },
+        "rename": {
+            "help": {
+                "name": "{prefix}rename",
+                "description": "Rename your curren channels name",
+                "usage": "{prefix}rename <name> ( 32 characters max. )"
+            }
+        },
+        "show": {
+            "help": {
+                "name": "{prefix}show",
+                "description": "When your channel was hided you can show it again.",
+                "usage": "{prefix}"
+            }
+        },
+        "transfer": {
+            "help": {
+                "name": "{prefix}transfer",
+                "description": "Transfer the channels ownership",
+                "usage": "{prefix}transfer <username, user#tag or @mention>"
+            }
+        },
+        "unlock": {
+            "help": {
+                "name": "{prefix}unlock",
+                "description": "If your channel was locked you can unlock it",
+                "usage": "{prefix}unlock"
+            }
+        }
+    },
+    "words": {
+        "bot_invite": "Invite Discordbot",
+        "language_settings": "Language settings",
+        "prefix_settings": "Prefix settings",
+        "add_language": "Add Language",
+        "none": "None"
+    }
+}
