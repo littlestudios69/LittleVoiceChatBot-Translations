@@ -39,6 +39,10 @@
             }
         },
         "donate": {
+            "donate_link": {
+                "title": "Donate for Little VoiceChat",
+                "description": "Click here to donate via PayPal"
+            },
             "help": {
                 "name": "{prefix}donate",
                 "description": "Get the PayPal Donation Link to donate for this bot. The servers don't pay for themselves ;)",
@@ -100,6 +104,10 @@
             }
         },
         "lobby": {
+            "errors": {
+                "not_in_vc": "You are not in a Voice-Channel",
+                "no_parent": "This Channel does not have a parent channel"
+            },
             "help": {
                 "name": "{prefix}lobby",
                 "description": "Set the tempvoice lobby ( a voice channel to join when you want to open your own channel permissions can be managed by category changes )",
@@ -118,6 +126,7 @@
             }
         },
         "moveall": {
+            "unknown_channel": "Channel could not be found",
             "help": {
                 "name": "{prefix}moveall",
                 "description": "With this command you can move all participants to another voice channel",

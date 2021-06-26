@@ -39,6 +39,10 @@
             }
         },
         "donate": {
+            "donate_link": {
+                "title": "Spende für Little VoiceChat",
+                "description": "Klicke hier, um mit PayPal zu spenden"
+            },
             "help": {
                 "name": "{prefix}donate",
                 "description": "Erhalte den PayPal Spendenlink. Die Server zahlen sich nicht von allein ;)",
@@ -104,6 +108,10 @@
             }
         },
         "lobby": {
+            "errors": {
+                "not_in_vc": "Du befindest dich in keinem Sprachkanal",
+                "no_parent": "Dieser Channel ist in keiner Kategorie"
+            },
             "help": {
                 "name": "{prefix}lobby",
                 "description": "Mit diesem Command kannst du die Lobby für die TempVoice Kanäle setzen",
@@ -118,6 +126,7 @@
             }
         },
         "moveall": {
+            "unknown_channel": "Channel konnte nicht gefunden werden",
             "help": {
                 "name": "{prefix}moveall",
                 "description": "Mit diesem Command kannst du alle Teilnehmer in einen anderen Kanal verschieben",
