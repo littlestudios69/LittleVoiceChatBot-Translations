@@ -3,6 +3,7 @@
     "language_name": "Deutsch (de_DE)",
     "maintenance": "Der Bot befindet sich derzeit im Wartungsmodus. Bitte versuche es später erneut.",
     "errors": {
+        "unknown_error": "Ein unbekannter Fehler ist aufgetreten, Dieser wurde den Entwicklern automatisch mitgeteilt und wird so schnell wie möglich behoben.",
         "missing_perms": "Dem Bot fehlt folgendes Recht: *{permission}*",
         "not_in_voicechannel": "Du befindest dich nicht in einem Voice Kanal!",
         "not_owned_channel_or_no_tempvoice": "Dies ist kein Temporärer Kanal oder der Kanal hat keinen Besitzer!",

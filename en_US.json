@@ -3,6 +3,7 @@
     "language_name": "English (en_US)",
     "maintenance": "Our Bot is under maintenance. Please try again later.",
     "errors": {
+        "unknown_error": "An unknown error occurred. It was sent to the developers and will be fixed as soon as possible.",
         "missing_perms": "The bot is missing following permission: *{permission}*",
         "not_in_voicechannel": "You are not in a voice channel!",
         "not_owned_channel_or_no_tempvoice": "You are not in a temp voicechannel or this is an unowned channel!",
