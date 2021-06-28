@@ -172,6 +172,7 @@
             }
         },
         "transfer": {
+            "no_new_owner_mentioned": "Markeire den Neuen Owner des Channels",
             "help": {
                 "name": "{prefix}transfer",
                 "description": "Übergebe die Inhaberrechte an einen anderen Benutzer",

@@ -171,6 +171,7 @@
             }
         },
         "transfer": {
+            "no_new_owner_mentioned": "Mention the new owner for this channel",
             "help": {
                 "name": "{prefix}transfer",
                 "description": "Transfer the channels ownership",
