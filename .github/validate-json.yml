@@ -1,0 +1,36 @@
+name: Validate JSON Syntax
+
+on:
+  push:
+    paths:
+      - '**.json'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: json-syntax-check
+        uses: limitusus/json-syntax-check@v1
+        with:
+          pattern: "\\.json$"
+      - uses: actions-ecosystem/action-add-labels@v1
+        if: ${{ failure() }}
+        with:
+          labels: jsoninvalid
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions-ecosystem/action-remove-labels@v1
+        if: ${{ success() }}
+        with:
+          labels: jsoninvalid
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: mshick/add-pr-comment@v1
+        if: ${{ failure() }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FILES_AFFECTED: ${{ steps.test.outputs.failed_files }}
+        with:
+          message: |
+            Invalid JSONs detected.
+            Files affected: ${{ env.FILES_AFFECTED }}
+          allow-repeats: true
