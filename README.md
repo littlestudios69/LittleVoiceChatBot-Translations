@@ -1,3 +1,5 @@
+## This repository has been archived and will not receive any further updates! However if you still wanna use it you can work on it yourself or create a fork.
+
 Little VoiceChat Discordbot Translations
 
 This is the official repository for the LittleVoiceChatBot translations.
